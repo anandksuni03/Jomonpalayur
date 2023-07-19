@@ -1,31 +1,225 @@
-<h1 align="center">Hi 👋, I'm John Babu K</h1>
-<h3 align="center">A passionate Electronics Enthusiast And Entrepreneur from Kochi</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><!-- for editing in browser -->
+    <meta http-equiv="X-UA-compatible" content="IE-edge"> <!-- to improve the performance to the website -->
+    <meta name="viewport" content="width=device-width, intial-scale=1.0"> <!-- to fit into differnt devices -->
+    <title>personal portfolio</title>
+    <script defer src="script.js"></script> 
+    <link rel="stylesheet" href="sytle.css">
+    <script src="https://kit.fontawesome.com/867b952505.js" crossorigin="anonymous"></script>
+</head>   
+<body>
+<div id="header">
+     <div class="container">
+        <nav>
+            <img src="images/aks logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            
+            </ul>
+        
+        </nav>
+        <div class="header-text">
+            <p>Tech Enthusistant</p>
+            <h1> HI I am <span><b>Anand</b></span> <br>K Suni</h1>
+        </div>
+     </div>
+</div>
+<!----------about------------>
+<div id="about">
+    <div class="container"></div>
+       <div class="row">
+           <div class="about-col-1">
+            <img src="images/user.png">
+           </div>
+           <div class="about-col-2">
+               <h1 class="sub-tiltle">About Me</h1>
+               <p>Today, we commit to this next great leap into the cosmos because we're human, and our nature is to fly. 
+                ~Stephen Hawking 
+ 
+  Prepare to be captivated! Unveil the remarkable advancements in lighting technology and unlock the secrets behind the enchanting impact of BLUE light on our lives. 💎🛡️
+ 
+ The IEEE Education Society Kerala Chapter in Collaboration with the IEEE Photonics Society Kerala chapter is excited to announce our Webinar on  The Evolution of Lights and the Engineering Brilliance of Blue Light🔌💡. 
+ 
+ Speaker: Mr Abhinav R. 
+ Junior Research Fellow, IIT Palakkad
+ STEM & HAC Lead, IEEE Education Society Kerala Chapter 
+ Secretary, IEEE SIGHT Group  Kerala 
+ Lead, IEEE Humanitarian  Working Group IEEE YP Kerala.
+               </p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">experience</p>
+                <p class="tab-links" onclick="opentab('education')">education</p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=jomonpalayur&label=Profile%20views&color=0e75b6&style=flat" alt="jomonpalayur" /> </p>
+               </div>
+               <div class="tab-contents active-tab " id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing App intrefaces</li>
+                    <li><span>web development</span><br>Designing web intrefaces</li>
+                    <li><span>app development</span><br>Designing App for android</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>me</span><br>aks</li>
+                    <li><span>hello</span><br>Designing web intrefacesgood</li>
+                    <li><span>hi</span><br>Designing App for android wdn</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>his</span><br>Designieafng App intrefaces</li>
+                    <li><span>hert</span><br>Designinefag web intrefaces</li>
+                    <li><span>bye</span><br>Designinesfg App for android</li>
+                </ul>
+               </div>
 
-<p align="left"> <a href="https://twitter.com/jomonpalayur" target="blank"><img src="https://img.shields.io/twitter/follow/jomonpalayur?logo=twitter&style=for-the-badge" alt="jomonpalayur" /></a> </p>
+           </div>
 
-- 🔭 I’m currently working on **AI Image Mapping**
 
-- 🌱 I’m currently learning **HDL, Web development**
+       </div>
+</div>
 
-- 🤝 I’m looking to collaborate on **IoT based Projects**
+<!-----services-------->
 
-- 💻 I’m working at **Technology Startup "Piecker"**
+<div class="services">
 
-- 📫 How to reach me **johnbabukuruthukulam@gmail.com**
+    <div class="container">
+        <h1 class="sub-tiltle">my services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>adyauyfwf3ig
+                    3uqgcuru
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>app design</h2>
+                <p>adyauyfwf3ig
+                    3uqgcuru
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>ps design</h2>
+                <p>adyauyfwf3ig
+                    3uqgcuru
+                </p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
 
-- 📄 Know more about me at [https://www.linkedin.com/in/johnbabuk/](https://www.linkedin.com/in/johnbabuk/)
+    </div>
+</div>
+<!-----portfolio------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tiltle">my work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>social media apps</h3>
+                    <p>uaufhoaeifhoaieh
+                        aefhofeiahfjalf
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a> <!--icon-->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>social </h3>
+                    <p>uaufhoaeifhoaieh
+                        aefhofeiahfjadeaaflf
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>social media </h3>
+                    <p>uaufhoaeifhoaieh
+                        aefhofeiahfcssdcf
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/jomonpalayur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jomonpalayur" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/johnbabuk" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="johnbabuk" height="30" width="40" /></a>
-<a href="https://instagram.com/jomon.palayur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jomon.palayur" height="30" width="40" /></a>
-</p>
+        </div>
+        <a href="#" class="btn">See more</a>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
+    </div>
+</div>
+<!----------contact-------------->
 
-<h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/jomonpalayur"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="jomonpalayur" /></a></p><br><br>
+<div id="contact">
+    <div class="container"> <!---for width adjust according to the screen-->
+       <div class="row">
+        <div class="contact-left">
+            <h1 class="subtitle">contact me</h1> <!-- to change the font size, color, and other properties of the subtitle heading.-->
+            <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fa-solid fa-phone"></i>ph 0123456789</p>
+            <div class="social-media-icons">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">download cv</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="name" placeholder="your name" required>
+                <input type="email" email="email" placeholder="your email" required>
+                <textarea name="message" rows="6" placeholder="your message"></textarea>
+                <button type="submit " class="btn btn2">submit</button>
+            </form> 
+            
+
+        </div>
+
+       </div>
+        
+    </div>
+    <div class="copyright">
+        <p>copyright @  Anand.</p>
+    </div>
+</div>
+
+
+<script> 
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");/*it will active class*/
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");/*it will active class*/
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab") /* to get data of specific tab*/
+
+}
+
+
+</script>
+</body>
+
+    
+</html>
